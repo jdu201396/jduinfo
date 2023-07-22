@@ -1,0 +1,164 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(217, 217, 217, 0.46);
+  position: relative;
+  height: 100vh;
+}
+
+.header__container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  border-bottom: 1px solid #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Searchbox design starts */
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: white;
+	border-radius: 45px;
+  width: 500px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+input {
+	flex: 1;
+	border: none;
+	outline: none;
+	background: transparent;
+	padding: 13px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.50);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.91px;
+}
+
+button {
+	border:none;
+	outline: none;
+  width: 60px;
+  height: 50px;
+	background: #03D3DA;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 0 45px 45px 0;
+}
+
+/* Searchbox design ends */
+
+.university__container {
+  margin-top: 15vh;
+}
+
+.university__rectors {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  justify-content: center
+}
+
+.university__list {
+  position: absolute;
+  width: 100vw;
+  bottom: 10%;
+
+}
+
+.university__logos {
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+
+
+#jdu_logo {
+  padding: 0 8px 0 8px;
+  background-color: rgba(217, 217, 217, 0.46);
+  border-radius: 60px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.debt-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#debt__status {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding: 20px;
+  border: 1px solid #000;
+  background: rgba(3, 211, 218, 0.50);
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+table {
+  width: 1140px;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #000;
+  height: 80px;
+  padding: 14px 25px;
+}
+
+th {
+  background: rgba(3, 211, 218, 0.30);
+}
+
+h1 {
+  color: #F00606;
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150.523%; /* 52.683px */
+  letter-spacing: 1.925px;
+}
