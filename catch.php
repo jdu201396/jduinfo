@@ -3,7 +3,7 @@
 echo $_GET['student-id'];
 
   // Create a connection object
-$conn = mysqli_connect("localhost", "root", "root", "student_data");
+$conn = mysqli_connect("localhost", "root", "jdu201396", "student_data");
 
 // Check connection
 if ($conn->connect_error) {
